@@ -16,7 +16,6 @@ int b2d(int n)
     return decimal;
 }
 
-
 int main()
 {
     int n;
@@ -29,3 +28,6 @@ int main()
 
 Input = 1110
 output = 14
+
+
+
