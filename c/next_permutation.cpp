@@ -3,7 +3,27 @@ using namespace std;
 
 int main()
 {
-   string s;
+    char a[1001];
+    gets(a);
+    int sz = strlen(a);
+    do{
+        for(int i = 0; i<sz; i++){
+            cout<<a[i]<<" ";
+        }
+        cout<<endl;
+    }while(next_permutation(a, sz+a));
+    
+    return 0;
+}
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    string s;
     cin>>s;
     sort(s.begin(), s.end());
     do{
