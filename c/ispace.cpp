@@ -24,7 +24,10 @@ int main()
 =========
 Input
 I am dipu
+
 Output
 I
 am
 dipu
+
+
