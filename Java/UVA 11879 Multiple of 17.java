@@ -23,3 +23,16 @@ public static void main(String[] args) {
         }
     }
 }
+
+==============
+Sample Input
+34
+201
+2098765413
+1717171717171717171717171717171717171717171717171718
+0
+Sample Output
+1 
+0 
+1
+0
