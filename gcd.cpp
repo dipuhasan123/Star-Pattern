@@ -1,3 +1,5 @@
+gcd,lcm
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -23,4 +25,8 @@ int main()
     cout<<gcd(a,b)<<'\n';
     cout<<lcm(a,b);
 }
+
+Input:  4 26
+Output: 2 52
+
 
